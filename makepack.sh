@@ -22,6 +22,7 @@ fi
 zip -r "${OUTPUT}" . \
     -x "*.DS_Store" \
     -x "*.sh" \
+    -x "README.md" \
     -x ".git/*"
 
 echo "Done. Created ${OUTPUT}"
